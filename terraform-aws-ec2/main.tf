@@ -10,7 +10,7 @@ resource "aws_instance" "ec2_example" {
            Name = "Terraform EC2"
    }
 }
-
+# testing for PR
 
 variable "instance_type" {
    description = "Instance type t2.micro"
